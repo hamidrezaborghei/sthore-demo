@@ -1,0 +1,26 @@
+.page .post {
+  padding: 8px 8px;
+  margin: 24px 0;
+  box-shadow: none;
+}
+
+.page .post .title {
+  font-size: 16px;
+  padding: 0 0 8px 0;
+}
+
+.page .post .body {
+  margin: 8px 0;
+}
+
+.page .comments {
+  padding: 8px 8px;
+}
+
+.page .comments .title {
+  font-size: 12px;
+}
+
+.page .comments .item {
+  margin: 8px 0;
+}

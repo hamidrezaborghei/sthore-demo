@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.form .item {
+  margin: 8px 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form .item .label {
+  display: inline;
+}
+
+.form .item .input {
+  margin: 8px 0 0 0;
+}
+
+.form .submit {
+  width: 150px;
+  margin: auto;
+  padding: 8px 8px;
+}

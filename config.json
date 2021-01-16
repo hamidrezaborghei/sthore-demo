@@ -1,0 +1,47 @@
+{
+    "baseURL": "https://jsonplaceholder.typicode.com",
+    "storesDir": "src/stores",
+    "servicesDir": "src/services",
+    "stores": [
+        {
+            "name": "posts",
+            "actions": [
+                {
+                    "name": "getAll",
+                    "url": "/posts",
+                    "method": "GET"
+                },
+                {
+                    "name": "single",
+                    "url": "/posts/${id}",
+                    "method": "GET"
+                },
+                {
+                    "name": "create",
+                    "url": "/posts",
+                    "method": "POST"
+                },
+                {
+                    "name": "update",
+                    "url": "/posts/${id}",
+                    "method": "PUT"
+                },
+                {
+                    "name": "remove",
+                    "url": "/posts/${id}",
+                    "method": "DELETE"
+                }
+            ]
+        },
+        {
+            "name": "comments",
+            "actions": [
+                {
+                    "name": "getAll",
+                    "url": "/posts/${postID}/comments",
+                    "method": "GET"
+                }
+            ]
+        }
+    ]
+}

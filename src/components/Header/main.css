@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  padding: 16px 32px;
+}
+
+.header .title {
+  flex-grow: 1;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header .links .link {
+  padding: 8px 16px;
+  margin: 0px 8px;
+  background-color: burlywood;
+  border-radius: 8px;
+}
